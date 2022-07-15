@@ -1,0 +1,11 @@
+ServerAddress: "192.168.x.x"
+Username: <SERVER_USER>
+Password: <SERVER_PASS>
+ServerPort: 445
+ShareSettings:
+  RemoteShareName: <SERVER_SHARE>
+  WatchersMapping:
+    - From: "D:\\Users\\Public\\Documents"
+      To: "Documents"
+    - From: "C:\\Users\\Public\\Pictures"
+      To: "Public\\Pictures"
